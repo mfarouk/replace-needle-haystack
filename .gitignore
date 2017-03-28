@@ -1,0 +1,12 @@
+#Ignoring intelliJ files
+.idea/
+*.iml
+
+#Ignoring class files
+*.class
+
+#Ignoring target dir
+target
+
+#Ignoring weird macOS files
+.DS_Store
