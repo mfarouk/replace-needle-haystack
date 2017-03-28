@@ -21,7 +21,7 @@
 
     **IDE**
 
-    You can run the tests and ReplaceTalatiniFaroukGroovy.groovy individually from your IDE, I used IntelliJ IDEA  
+    You can run the tests and ReplaceNeedleHayStackGroovy.groovy individually from your IDE, I used IntelliJ IDEA  
 
 
 
