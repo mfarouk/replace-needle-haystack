@@ -49,6 +49,7 @@ public class Stack {
             Object pop = elements[--size];
             //elements[size] = null;
             logger.info("Popping an element from the stack: " + pop);
+            elements[size] = null;
             return pop;
         } catch (Exception ex) {
             logger.error("An exception has occured: " + ex);
