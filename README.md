@@ -1,9 +1,9 @@
 
 **Project details:**
 
-- Java, maven, and IDE: I used java 1.8.0_121 and maven 3.3.9 and IntelliJ IDEA to develop this project. I saw that the question asked for Java 1.5 but I assumed that the assignment was written a while back. I am happy to rewrite it for java 1.5 if you would you like me to.
+- Java, maven, and IDE: I used java 1.8.0_121 and maven 3.3.9 and IntelliJ IDEA to develop this project.
 
-- Files submitted for consideration: ReplaceNeedleHayStack.java, ReplaceNeedleHayStackGroovy.groovy, Stack.java, ReplaceNeedleHayStackTest.java, StackTest.java, and solution.txt
+- Files: ReplaceNeedleHayStack.java, ReplaceNeedleHayStackGroovy.groovy, Stack.java, ReplaceNeedleHayStackTest.java, StackTest.java, and solution.txt
 
 - Features: SLF4J Logging, JavaDoc style comments, and JUnit4 tests
 
