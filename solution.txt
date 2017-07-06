@@ -1,9 +1,0 @@
-
-Thank you for taking the time to review my notes below
-
-1. Unused import “java.util.*” which will have a small performance impact, still an impact that could be avoided. Also affects readability and maintainability of code. We’re not using the Java util Stack class, we are doing our own stack implementation.
-2. You could instantiate a Stack object with a negative initial capacity, which will cause a NegativeArraySizeException, stack size needs to be defaulted with a message output to the user in that case.
-2. Popping elements out of the stack should be placed inside a try catch handling the exception instead of throwing unhandled exception.
-3. You don’t need to double the capacity of the array to increase the size, adding one to the size will do the trick.
-4. Although not requested, I modified the code with my suggestions and added it to the submitted project.
-5. As a suggestion, there is really no need to set an initial size to the stack, you can default it to zero and add to the size as the elements grow, pass a maximum size if you want to set a maximum for the stack size. However, I see a point for the code the way it is if you know the rough size of the stack before you push your elements, it could save you copying the array to a new one if the array is going out of bounds.
